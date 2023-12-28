@@ -16,7 +16,7 @@ import DishCard from './components/DishCard';
 import CartPage from './components/CartPage';
 import "./App.css";
 
-const STRAPI_URL = process.env.REACT_APP_STRAPI_URL;
+const STRAPI_URL = 'https://annanizhonirestaurantbackend-1546e18dfac0.herokuapp.com';
 
 // Stripe setup
 const stripePromise = loadStripe("pk_test_51IUyyvA9gwdOZYvzBKJk6zWxwsNMeHzSnxSjSyHWeQqY5shd8fiu7AiKCQ3X5jMYFeeH7nM3hT2nGBhgol07mAUI002HrGz98l");
